@@ -25,6 +25,7 @@ header {
     background-image: url("../ornementbis.png");
     background-repeat: repeat-x;
     background-position: -11px;
+    background-size: contain;
 }
 div {
     background: rgb(0,0,0);
