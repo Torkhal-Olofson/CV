@@ -1,7 +1,7 @@
 h1 {
     color: rgb(242, 250, 255);
     font-family: sans-serif;
-    text-shadow: 3px 2px #000000;
+    text-shadow: 3px 2px #000000a8;
     -webkit-text-stroke: 1px rgb(35, 47, 87);
 }
 h2 {
@@ -30,6 +30,7 @@ section {
     padding: 15px;
     flex: 1;
     margin: 25px;
+    box-shadow: 3px 2px rgba(0, 0, 0, 0.250);
 }
 
 article img {
