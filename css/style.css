@@ -36,3 +36,9 @@ section {
 article img {
     margin: 10px;
 }
+ul {
+    list-style: none;
+}
+li {
+    margin: 15px;
+}
