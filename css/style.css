@@ -5,8 +5,13 @@ h1 {
     -webkit-text-stroke: 1px rgb(35, 47, 87);
 }
 h2 {
-    color: rgb(90, 90, 90);
+    color: rgb(242, 250, 255);
     text-align: center;
+    text-shadow: 1px 2px #000000a8;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px rgba(35, 47, 87);
+    background-color: rgba(18, 49, 58, 0.5);
+    border-radius: 35px;
 }
 h3, h4, h5 {
     color: rgb(51, 51, 51);
@@ -19,9 +24,11 @@ header {
     height: 75px;
     background-image: url("../ornement.png");
     background-repeat: repeat-x;
+    background-position: -11px;
 }
 div {
-    background-color: rgb(218, 218, 218);
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,0.4990371148459384) 0%, rgba(218,218,218,1) 99%);
     display: flex;
 }
 section {
